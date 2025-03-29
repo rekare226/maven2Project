@@ -16,7 +16,7 @@ public class C03_WebAppTesti {
         WebDriver driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-        //2- http://zero.webappsecurity.com/ adresine gidin
+        //2- http://zero.webappsecurity.com/ gidin
         driver.get("http://zero.webappsecurity.com/");
         //3-"ONLINE BANKING " linkine tiklayin
         //siteye gittik onlıne banking menusunun ustünde incele dedik ve
