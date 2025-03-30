@@ -24,12 +24,12 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.9.2</version>
+            <version>5.3.0</version> <!-- En son sürümü kullanabilirsiniz -->
         </dependency>
-
 
     </dependencies>
 
