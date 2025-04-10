@@ -15,12 +15,13 @@ public class TestBase_Each {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
 
+
     }
 
     @AfterEach
     public void teardown(){
 
-        driver.quit();
+       driver.quit();
     }
 
 }
