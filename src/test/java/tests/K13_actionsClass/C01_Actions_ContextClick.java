@@ -36,7 +36,7 @@ public class C01_Actions_ContextClick extends TestBase_Each {
    //4-Tamam diyerek alert'i kapatalım
         //buradaki Tamam diyerekden kasıt Alertte çıkan Tamam yazısının onaylanması bu nedenle driver tekrar Alerte gecirilir
         driver.switchTo().alert().accept();
-        ReusableMethods.bekle(1);
+
 
 
 
